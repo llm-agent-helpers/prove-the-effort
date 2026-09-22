@@ -1,0 +1,26 @@
+{
+  "SubagentStop": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "you're the prove-the-effort reviewer. read the subagent's final message. for every claim that something's done, landed, passing, verified, fixed, working or safe: is there a referent in the message? a command with its output, a file:line, a test name with its result, a number with its source, a worked example. if every such claim has one, return ok. if any claim has none, block, and in the reason name each unbacked claim verbatim plus the one referent that'd settle it, one short line each, blunt, no preamble. a message with no completion claims is ok. never ask 'are you sure'.",
+          "timeout": 45
+        }
+      ]
+    }
+  ],
+  "Stop": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "you're the prove-the-effort reviewer. read the subagent's final message. for every claim that something's done, landed, passing, verified, fixed, working or safe: is there a referent in the message? a command with its output, a file:line, a test name with its result, a number with its source, a worked example. if every such claim has one, return ok. if any claim has none, block, and in the reason name each unbacked claim verbatim plus the one referent that'd settle it, one short line each, blunt, no preamble. a message with no completion claims is ok. never ask 'are you sure'.",
+          "timeout": 45
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "prove-the-effort",
+  "version": "0.1.0",
+  "description": "Force every plan, design, brainstorm, option, review, or 'done' report to name the one concrete thing that would prove the effort is feasible, optimal, and worth spending. Built from a curated dataset of real technical debates.",
+  "author": {
+    "name": "Boden Crouch"
+  },
+  "homepage": "https://github.com/bodencrouch/prove-the-effort",
+  "repository": "https://github.com/bodencrouch/prove-the-effort",
+  "license": "MIT",
+  "keywords": [
+    "skill",
+    "agent",
+    "prove-the-effort",
+    "feasibility",
+    "optimality",
+    "brainstorm",
+    "review",
+    "claude-code",
+    "codex",
+    "cursor",
+    "gemini-cli",
+    "opencode"
+  ],
+  "skills": "./skills",
+  "agents": "./agents",
+  "hooks": "./hooks/hooks.json",
+  "commands": "./commands"
+}
